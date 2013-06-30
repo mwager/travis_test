@@ -1,9 +1,16 @@
 language: node_js
 node_js:
    - "0.10"
-   - "0.8"
+
+notifications:
+  email: false
+
 services:
   - mongodb
+
+env:
+  global:
+    - NODE_ENV=whatever
 
 before_script:
   - "export PHANTOMJS_EXECUTABLE='phantomjs --local-to-remote-url-access=yes --ignore-ssl-errors=yes'"
@@ -14,4 +21,4 @@ before_script:
   - "cd casperjs && git checkout tags/1.0.2 && cd .."
 
 script:
-  - "DISPLAY=:99.0 npm test && ./casperjs/bin/casperjs test test_casper.js && node_modules/testem/testem.js ci"
+  - "DISPLAY=:99.0 npm test && ./casperjs/bin/casperjs test test_casper.js && node_modules/testem/testem.js launchers && node_modules/testem/testem.js ci"
