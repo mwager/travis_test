@@ -18,5 +18,5 @@ See [this tutorial from Ariya Hidayat](http://ariya.ofilabs.com/2012/03/phantomj
 
 Testem:
 
-    $ testem    # dev mode
-    $ testem ci # ci  mode
+    $ node_modules/testem/testem.js    # dev mode
+    $ node_modules/testem/testem.js ci # ci  mode
