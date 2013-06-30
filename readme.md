@@ -1,6 +1,6 @@
 This repo is only for testing travis ci integration.
 
-![travis build](https://api.travis-ci.org/mwager/travis_test.png)
+[![Build Status](https://travis-ci.org/mwager/travis_test.png?branch=master)](https://travis-ci.org/mwager/travis_test)
 
 Running the tests locally:
 
@@ -20,3 +20,9 @@ Testem:
 
     $ node_modules/testem/testem.js    # dev mode
     $ node_modules/testem/testem.js ci # ci  mode
+
+Conclusion
+
+The setup for this repo including full travis integration took me about two hours and everything just worked.
+
+Thank you TravisCI!
