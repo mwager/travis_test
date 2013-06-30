@@ -14,5 +14,5 @@ CasperJS:
 See [this tutorial from Ariya Hidayat](http://ariya.ofilabs.com/2012/03/phantomjs-and-travis-ci.html) about phantomjs integration
 
     $ node server.js &
-    $ casperjs test casper_tests.js
+    $ casperjs/bin/casperjs test casper_tests.js
 
