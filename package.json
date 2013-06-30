@@ -1,0 +1,20 @@
+{
+  "name":"travis_test",
+  "version": "0.0.1",
+  "author": {
+    "name":  "Michael Wager",
+    "email": "mail@mwager.de",
+    "url":   "http://mwager.de"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+   },
+   "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests.js --ui bdd --recursive --reporter spec --timeout 20000 --slow 300"
+  }
+}
