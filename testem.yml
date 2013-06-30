@@ -1,0 +1,16 @@
+
+# "framework" and "src_files" are irrelevant in this case
+# "test_page": "test_testem.html"
+
+framework: mocha
+src_files:
+    - test_testem.js
+
+# launch_in_ci:
+#     - All
+#     - Safari
+#     - Chrome
+#     - Chrome Canary
+#     - Opera
+#     - Firefox
+#     - PhantomJS

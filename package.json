@@ -12,12 +12,13 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "testem": "*"
    },
    "engines": {
     "node": ">=0.8.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests.js --ui bdd --recursive --reporter spec --timeout 20000 --slow 300"
+    "test": "./node_modules/.bin/mocha test_mocha.js --ui bdd --recursive --reporter spec --timeout 20000 --slow 300"
   }
 }
