@@ -6,7 +6,9 @@ framework: mocha
 src_files:
     - test_testem.js
 
-# launch_in_ci:
+launch_in_ci:
+    - PhantomJS
+
 #     - All
 #     - Safari
 #     - Chrome
