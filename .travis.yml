@@ -21,4 +21,4 @@ before_script:
   - "cd casperjs && git checkout tags/1.0.2 && cd .."
 
 script:
-  - "DISPLAY=:99.0 npm test && ./casperjs/bin/casperjs test test_casper.js && node_modules/testem/testem.js launchers && node_modules/testem/testem.js ci"
+  - "DISPLAY=:99.0 make all_tests"
