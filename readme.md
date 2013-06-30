@@ -23,6 +23,8 @@ Testem:
 
 Conclusion
 
+I needed node tests with mocha and mongodb support for testing node stuff, `testem` for automating client side unit tests and `casperjs` for functional testing.
+
 The setup for this repo including full travis integration took me about two hours and everything just worked.
 
 Thank you TravisCI!
