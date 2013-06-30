@@ -4,7 +4,8 @@ This repo is only for testing travis ci integration.
 
 Running the tests:
 
-    $ clone ...
     $ npm install
+    # start mongodb if not already running
+    $ mongod &
     $ npm test
 

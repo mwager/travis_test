@@ -7,9 +7,12 @@
     "url":   "http://mwager.de"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "mongoose": "~3.0.0"
+  },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "should": "*"
    },
    "engines": {
     "node": ">=0.8.0"
